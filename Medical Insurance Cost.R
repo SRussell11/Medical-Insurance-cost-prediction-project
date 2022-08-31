@@ -29,7 +29,7 @@ boxplot(df$charges ~ region, main ='region')
 ```
 
 
-##Use liner regression to predict the charges
+##Use linear regression to predict the charges
 ```{r}
 model1 = lm(charges ~. , data =df)
 ```
